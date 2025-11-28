@@ -1,0 +1,42 @@
+These steps allow the project to be reproduced and run locally.
+
+Prerequisites
+Python 3.9+
+
+Install Git (if not installed).
+
+A Gemini API Key (set as the GOOGLE_API_KEY environment variable).
+
+Steps
+Clone the Repository:
+
+Bash
+
+git clone YOUR_GIT_REPOSITORY_LINK
+cd BizOps-Knowledge-Agent
+Setup Environment:
+
+Bash
+
+python -m venv venv
+.\venv\Scripts\activate
+Install Dependencies:
+
+Bash
+
+pip install -r requirements.txt
+Set API Key: Set your key as an environment variable in the active terminal session.
+
+PowerShell
+
+$env:GOOGLE_API_KEY="YOUR_ACTUAL_KEY_HERE"
+Build the Knowledge Base (Indexing): (This step creates the ./chroma_db folder).
+
+Bash
+
+python ingest.py
+Run the Working Demo:
+
+Bash
+
+streamlit run app.py
