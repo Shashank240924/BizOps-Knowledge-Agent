@@ -1,0 +1,21 @@
+--- IT Policy and Security Guidelines ---
+
+**I. Access and Security:**
+For VPN access, contact the help desk at extension 555. The recommended password length is 12 characters, and it must include a mix of letters, numbers, and symbols. Passwords must be changed every 90 days. All work devices must have up-to-date antivirus software provided by the IT department.
+
+**II. Equipment and Assets:**
+Employees are issued a laptop and external monitor. Requests for additional equipment, such as specialized graphics cards or software licenses (e.g., Adobe, AutoCAD), must be pre-approved by the department head and submitted to purchasing@company.com. All company assets must be returned to IT upon separation.
+
+**III. Data Handling and Confidentiality:**
+Sensitive customer data (Level 3 or higher) must only be stored on encrypted network drives, never on local hard drives. For technical assistance, email helpdesk@company.com. If your password expires, use the self-service portal at portal.company.com/reset.
+
+**IV. Remote Work Guidelines:**
+All remote workers must utilize the company VPN for all access to internal systems. Personal devices are strictly prohibited from accessing Level 3 data.
+
+-- Add this to the end of your existing it_policy.txt --
+
+**V. Approved Software List:**
+Only IT-approved software (Slack, Jira, MS Office Suite) may be installed on company laptops. Unauthorized software downloads are grounds for security review. Employees must request access to specialized tools (e.g., Salesforce, Tableau) via a ticket to helpdesk@company.com.
+
+**VI. Device Return Procedure:**
+Upon separation, employees must return all company-issued devices (laptops, monitors, cell phones) to the IT department within 7 business days. A prepaid shipping label will be provided upon notification of separation.
